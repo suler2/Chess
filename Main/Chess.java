@@ -9,6 +9,5 @@ public class Chess {
 		GameComponents gc = new GameComponents ();
 		gc.start();
 		Board b = new Board ();
-		b.GUIcomponents();
 	}
 }

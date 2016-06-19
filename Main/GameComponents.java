@@ -21,6 +21,8 @@ class GameComponents {
 		
 	}
 	
+	
+	
 	public void start () {
 		Wking w = new Wking ();
 		if (w.isAlive() == true)

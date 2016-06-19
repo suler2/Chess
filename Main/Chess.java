@@ -8,5 +8,6 @@ public class Chess {
 	//	gui.components();
 		GameComponents gc = new GameComponents ();
 		gc.start();
+		Board b = new Board ();
 	}
 }

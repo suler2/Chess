@@ -1,5 +1,10 @@
+package Main;
+
 public class Chess {
 	public static void main (String[] args) {
-		System.out.println ("Hello World!");
+	//	GUI gui = new GUI();
+	//	gui.components();
+		GameComponents gc = new GameComponents ();
+		gc.start();
 	}
 }

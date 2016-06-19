@@ -32,9 +32,8 @@ public class Board extends JFrame {
 		hZaslon = d.height;
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		setSize(wZaslon, hZaslon);
-	//	setExtendedState(JFrame.MAXIMIZED_BOTH);
 	//	setLayout(new BorderLayout());
+	//	setLayout (null);
 		boardArray = boardArray();
 		mainPanel = new MainPanel(wZaslon, hZaslon, boardArray);
 //		add(mainPanel, BorderLayout.CENTER);

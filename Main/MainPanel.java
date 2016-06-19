@@ -23,7 +23,7 @@ public class MainPanel extends JPanel {
 	private Graphics2D g;
 	private int sizeOfSquare;
 	private int[][] boardArray;
-
+	
 	public MainPanel (int wZaslon, int hZaslon, int[][] boardArray) {
 		this.wZaslon = wZaslon;
 		this.hZaslon = hZaslon;
@@ -32,6 +32,7 @@ public class MainPanel extends JPanel {
 		System.out.println ("Size: " + (Math.min(wZaslon, hZaslon) - 200));
 		sizeOfSquare = (int) getPreferredSize().getWidth() / 8;
 		setVisible (true);
+		super.validate();
 	}
 	
 	public int sizeOfSquare() {
